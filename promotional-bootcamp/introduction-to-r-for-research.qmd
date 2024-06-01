@@ -1,0 +1,27 @@
+---
+title: "Introduction to R for Research"
+author: "Olamide Adu"
+date: 2024-05-31
+format: 
+  revealjs:
+    footer: "www.eustudyassist.com"
+    logo: logo-cropped.jpg
+---
+
+# Introduction
+
+## Why R
+
+## R and Microsoft Excel
+
+## Installing R and RStudio
+
+# Introductory Data Analysis with R
+
+## Import and Clean Data
+
+# Basic Statistics with R
+
+## Hypothesis Testing
+
+# Creating Stunning Visuals with R
