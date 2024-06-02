@@ -4,104 +4,113 @@ author: "Olamide Adu"
 date: 2024-05-31
 format: 
   revealjs:
-    theme: blood
+    theme: dark
     footer: "www.eustudyassist.com"
     logo: logo-cropped.jpg
 ---
 
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="45%"}
 ![EU StudyAssist](logo.png)
 :::
 
-:::{.column width="15%"}
-
+::: {.column width="15%"}
 :::
 
 ::: {.column width="40%"}
 ![The Comprehensive R Archive Network](R-logo.png)
 :::
+:::
 
-::::
+## The Presenter {.smaller} 
 
-## The Presenter {.smaller}
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
-
-- Olamide Michael **ADU**
-- MSc. in Forest Sciences
-  - Swedish University of Agricultural Sciences | Sweden
-  - University of Copenhagen | Denmark
-- Bachelors
-  - The Federal University of Technology, Akure | Nigeria
-- Freelance Data Scientist
-- Hobbies:
-  - Blog
-  - Code (R, python, javascript, SQL)
-  - Watch Anime
+-   Olamide Michael **ADU**
+-   MSc. in Forest Sciences
+    -   Swedish University of Agricultural Sciences \| Sweden
+    -   University of Copenhagen \| Denmark
+-   Bachelors
+    -   The Federal University of Technology, Akure \| Nigeria
+-   Freelance Data Scientist
+-   Hobbies:
+    -   Reading
+    -   Watching Anime
 :::
 
 ::: {.column width="50%"}
 ![](instructor.jpg)
 :::
+:::
 
-::::
+## Introduction {.smaller}
 
-## Introduction
-:::: {.columns}
-
-::: {.column width="40%"}
-
+::: columns
+::: {.column width="60%"}
 ![](graduation.png)
 :::
 
-::: {.column width="60%"}
-![](career-path-png)
-
-> Career Paths Are Never as Straightforward as We Believe
-  > - Ryan Roslansky - Linkedin CEO
-:::
-
-::::
-
-
-
-
-
-##
-
-## How large is the competition
-:::: {.columns}
-
 ::: {.column width="40%"}
-<img src = "lady-grad.jpg" width = 100% height = 80%/>
-**It's you**
+![](career-path.png)
+*source: linkedin.com*
+
+> **Career Paths Are Never as Straightforward as We Believe.**
+>
+> --<cite>Ryan Roslansky - *Linkedin CEO*</cite>
 :::
 
-::: {.column width="20%"}
-<img src = "versus.jpg"/>
 :::
 
-::: {.column width="40%"}
-<img src = "the-world.jpg" width = 100% height = 80%/>
-**The world**
+## Selection Criteria 
+
+::: {.panel-tabset}
+
+### Good Degree
+<img src="lady-grad.jpg" width="45%" height="35%/"/>
+
+
+### We Assume
+<img src="degree.jpeg" width="460px" height="430px"/>
+
+
 :::
 
-::::
+## How Large is the Competition? {.scrollable}
+::: columns
 
-## But I have a good degree
+::: {.column width="45%"}
+<img src="the-world.jpg" width="700px" height="540px"/>
+:::
 
-- <img src = "degree.jpeg" width = "60%" height = 50%/>
-- <img src = "https://thumbs.dreamstime.com/b/silhouette-man-climbing-mountain-sunset-light-backpack-walking-uphill-striding-160571454.jpg" width = "60%" height = 50%/>
+::: {.column width="10%"}
+:::
 
+::: {.column width="45%"}
+<img src="mountain-climb.png" width="820px" height="540px"/>
+:::
 
-## How Can I Standout?
+::: {.column width="45%"}
+<img src="ef-stats.png" width="100%" height="80%"/>
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+<img src="ipcv.png" width="100%" height="80%/"/>
+:::
+
+:::
+
+## How Can You Standout?
+
+- What transferable skills do I have?
+- Show what you can do
 
 
 ## Why R?
+- It is free
+- Popular in Academia
 
 ## R and Microsoft Excel
 
@@ -116,4 +125,3 @@ format:
 ## Hypothesis Testing
 
 # Creating Stunning Visuals with R
-
