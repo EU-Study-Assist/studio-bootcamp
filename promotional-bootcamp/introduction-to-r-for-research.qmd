@@ -4,13 +4,104 @@ author: "Olamide Adu"
 date: 2024-05-31
 format: 
   revealjs:
+    theme: blood
     footer: "www.eustudyassist.com"
     logo: logo-cropped.jpg
 ---
 
-# Introduction
 
-## Why R
+:::: {.columns}
+
+::: {.column width="45%"}
+![EU StudyAssist](logo.png)
+:::
+
+:::{.column width="15%"}
+
+:::
+
+::: {.column width="40%"}
+![The Comprehensive R Archive Network](R-logo.png)
+:::
+
+::::
+
+## The Presenter {.smaller}
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Olamide Michael **ADU**
+- MSc. in Forest Sciences
+  - Swedish University of Agricultural Sciences | Sweden
+  - University of Copenhagen | Denmark
+- Bachelors
+  - The Federal University of Technology, Akure | Nigeria
+- Freelance Data Scientist
+- Hobbies:
+  - Blog
+  - Code (R, python, javascript, SQL)
+  - Watch Anime
+:::
+
+::: {.column width="50%"}
+![](instructor.jpg)
+:::
+
+::::
+
+## Introduction
+:::: {.columns}
+
+::: {.column width="40%"}
+
+![](graduation.png)
+:::
+
+::: {.column width="60%"}
+![](career-path-png)
+
+> Career Paths Are Never as Straightforward as We Believe
+  > - Ryan Roslansky - Linkedin CEO
+:::
+
+::::
+
+
+
+
+
+##
+
+## How large is the competition
+:::: {.columns}
+
+::: {.column width="40%"}
+<img src = "lady-grad.jpg" width = 100% height = 80%/>
+**It's you**
+:::
+
+::: {.column width="20%"}
+<img src = "versus.jpg"/>
+:::
+
+::: {.column width="40%"}
+<img src = "the-world.jpg" width = 100% height = 80%/>
+**The world**
+:::
+
+::::
+
+## But I have a good degree
+
+- <img src = "degree.jpeg" width = "60%" height = 50%/>
+- <img src = "https://thumbs.dreamstime.com/b/silhouette-man-climbing-mountain-sunset-light-backpack-walking-uphill-striding-160571454.jpg" width = "60%" height = 50%/>
+
+
+## How Can I Standout?
+
+
+## Why R?
 
 ## R and Microsoft Excel
 
@@ -25,3 +116,4 @@ format:
 ## Hypothesis Testing
 
 # Creating Stunning Visuals with R
+
