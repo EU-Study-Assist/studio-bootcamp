@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+      }
+    pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+    div.sourceCode
+      { color: #f8f8f2;  }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #f8f8f2; } /* Normal */
+    code span.al { color: #f07178; background-color: #2a0f15; font-weight: bold; } /* Alert */
+    code span.an { color: #d4d0ab; } /* Annotation */
+    code span.at { color: #00e0e0; } /* Attribute */
+    code span.bn { color: #d4d0ab; } /* BaseN */
+    code span.bu { color: #abe338; } /* BuiltIn */
+    code span.cf { color: #ffa07a; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #abe338; } /* Char */
+    code span.cn { color: #ffd700; } /* Constant */
+    code span.co { color: #f8f8f2; font-style: italic; } /* Comment */
+    code span.cv { color: #ffd700; } /* CommentVar */
+    code span.do { color: #f8f8f2; } /* Documentation */
+    code span.dt { color: #ffa07a; } /* DataType */
+    code span.dv { color: #d4d0ab; } /* DecVal */
+    code span.er { color: #f07178; text-decoration: underline; } /* Error */
+    code span.ex { color: #00e0e0; font-weight: bold; } /* Extension */
+    code span.fl { color: #d4d0ab; } /* Float */
+    code span.fu { color: #ffa07a; } /* Function */
+    code span.im { color: #abe338; } /* Import */
+    code span.in { color: #d4d0ab; } /* Information */
+    code span.kw { color: #ffa07a; font-weight: bold; } /* Keyword */
+    code span.op { color: #ffa07a; } /* Operator */
+    code span.ot { color: #00e0e0; } /* Other */
+    code span.pp { color: #dcc6e0; } /* Preprocessor */
+    code span.re { color: #00e0e0; background-color: #f8f8f2; } /* RegionMarker */
+    code span.sc { color: #abe338; } /* SpecialChar */
+    code span.ss { color: #abe338; } /* SpecialString */
+    code span.st { color: #abe338; } /* String */
+    code span.va { color: #00e0e0; } /* Variable */
+    code span.vs { color: #abe338; } /* VerbatimString */
+    code span.wa { color: #dcc6e0; } /* Warning */
   </style>
   <link rel="stylesheet" href="introduction-to-r-for-research_files/libs/revealjs/dist/theme/quarto.css">
   <link href="introduction-to-r-for-research_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -372,7 +437,7 @@ Olamide Adu
 <li>Swedish University of Agricultural Sciences | Sweden</li>
 <li>University of Copenhagen | Denmark</li>
 </ul></li>
-<li>Bachelors
+<li>Bachelors (Forestry)
 <ul>
 <li>The Federal University of Technology, Akure | Nigeria</li>
 </ul></li>
@@ -380,7 +445,7 @@ Olamide Adu
 <li>Hobbies:
 <ul>
 <li>Reading</li>
-<li>Watching Anime</li>
+<li>Running</li>
 </ul></li>
 </ul>
 </div><div class="column" style="width:50%;">
@@ -420,11 +485,11 @@ Olamide Adu
 <h2>How Large is the Competition?</h2>
 <div class="columns">
 <div class="column" style="width:45%;">
-<p><img src="the-world.jpg" width="700px" height="540px"></p>
+<p><img src="the-world.jpg" width="650px" height="440px"></p>
 </div><div class="column" style="width:10%;">
 
 </div><div class="column" style="width:45%;">
-<p><img src="mountain-climb.png" width="820px" height="540px"></p>
+<p><img src="mountain-climb.png" width="720px" height="440px"></p>
 </div><div class="column" style="width:45%;">
 <p><img src="ef-stats.png" width="100%" height="80%"></p>
 </div><div class="column" style="width:10%;">
@@ -437,37 +502,295 @@ Olamide Adu
 <section id="how-can-you-standout" class="slide level2">
 <h2>How Can You Standout?</h2>
 <ul>
-<li>What transferable skills do I have?</li>
+<li>Get transferable skills</li>
 <li>Show what you can do</li>
 </ul>
+<h3 id="a-balance-of-skill-sets">A Balance of Skill Sets</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="soft-skills">Soft Skills</h4>
+<ul>
+<li>communication</li>
+<li>interpersonal</li>
+<li>collaborative (team player)</li>
+<li>Problem solving</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h4 id="hard-skills">Hard Skills</h4>
+<ul>
+<li>Tech Skills
+<ul>
+<li>R, Python, SQL, QGIS, etc.</li>
+<li>Github</li>
+</ul></li>
+<li>Domain Knowledge</li>
+</ul>
+</div>
+</div>
 </section>
 <section id="why-r" class="slide level2">
 <h2>Why R?</h2>
+<ul>
+<li>It is free</li>
+<li>Built by academics and not limited to academics</li>
+<li>Popular in Academia</li>
+<li>Can be used on all data without limitation</li>
+<li>It makes reproducible research the norm</li>
+</ul>
+<div class="footer">
+<blockquote>
+<p><strong>source:</strong></p>
+<p>Sage publications Ltd</p>
+<p>DataFlair</p>
+</blockquote>
+</div>
 </section>
-<section id="r-and-microsoft-excel" class="slide level2">
-<h2>R and Microsoft Excel</h2>
+<section id="r-vs-microsoft-excel" class="slide level2 smaller">
+<h2>R vs Microsoft Excel</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="section"><img src="R-logo.png" width="50px" height="50px"></h3>
+<ul>
+<li>Free</li>
+<li>Steep Learning curve compared to Excel</li>
+<li>Advance statistical capabilities</li>
+<li>Allows for Easy collaboration (Good for team research projects)</li>
+<li>Excellent for reproducibility</li>
+<li>Wide range of data visualization tools</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h3 id="section-1"><img src="ms-excel.png" width="80px" height="50px"></h3>
+<ul>
+<li>Costly except if Microsoft 365 is used (has more limited capabilities)</li>
+<li>Easy to learn when compared to R</li>
+<li>Limited statistical capabilities</li>
+<li>Collaboration is possible and is challenging</li>
+<li>Requires manual effort to achieve reproducibility</li>
+<li>Limited visual capabilities</li>
+</ul>
+</div>
+</div>
 </section>
-<section id="installing-r-and-rstudio" class="slide level2">
+<section id="installing-r-and-rstudio" class="slide level2 smaller scrollable">
 <h2>Installing R and RStudio</h2>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Search Google</a></li><li><a href="#tabset-2-2">Download and Install R</a></li><li><a href="#tabset-2-3">Download and Install R Studio</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<ul>
+<li>visit <a href="www.google.com">google</a> or visit <a href="www.posit.co/download/rstudio-desktop">posit.co</a></li>
+<li>search for <strong>RStudio</strong> if you go through <a href="www.google.com">google</a></li>
+</ul>
+<p><img data-src="r-download.png"></p>
+</div>
+<div id="tabset-2-2">
+<ul>
+<li>Click on the <strong>Download and install R</strong> button, you’ll get redirected to cran website</li>
+<li>Pick a download according to your operating system <img data-src="choose-os.png"></li>
+</ul>
+</div>
+<div id="tabset-2-3">
+<ul>
+<li>Return to the previous page/tab <a href="www.posit.co/download/rstudio-desktop">posit.co</a></li>
+<li>Pick a R Studio download according to your operating system and install <img data-src="rstudio-download.png"></li>
+</ul>
+</div>
+</div>
+</div>
 </section>
+<section id="the-r-studio-environment" class="slide level2">
+<h2>The R Studio Environment</h2>
+
+<img data-src="https://intro2r.com/images/rstudio.png" class="r-stretch"></section>
 <section>
-<section id="introductory-data-analysis-with-r" class="title-slide slide level1 center">
-<h1>Introductory Data Analysis with R</h1>
+<section id="data-analysis-with-r" class="title-slide slide level1 center">
+<h1>Data Analysis with R</h1>
 
 </section>
-<section id="import-and-clean-data" class="slide level2">
-<h2>Import and Clean Data</h2>
-</section></section>
-<section>
-<section id="basic-statistics-with-r" class="title-slide slide level1 center">
-<h1>Basic Statistics with R</h1>
-
+<section id="basic-mathematical-operations" class="slide level2 smaller scrollable">
+<h2>Basic Mathematical Operations</h2>
+<div class="panel-tabset">
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Addition</a></li><li><a href="#tabset-3-2">Subtraction</a></li><li><a href="#tabset-3-3">Multiplication</a></li><li><a href="#tabset-3-4">Division</a></li><li><a href="#tabset-3-5">Order of Operation</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="dv">2</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="dv">3</span> <span class="sc">+</span> <span class="dv">5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 8</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-3-2">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="dv">12</span> <span class="sc">-</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 11</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href=""></a><span class="dv">15</span> <span class="sc">-</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 13</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-3-3">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href=""></a><span class="dv">15</span> <span class="sc">*</span> <span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 45</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href=""></a><span class="dv">13</span> <span class="sc">*</span> <span class="dv">4</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 52</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-3-4">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href=""></a><span class="dv">15</span><span class="sc">/</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 7.5</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href=""></a><span class="dv">5</span><span class="sc">/</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2.5</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-3-5">
+<p><strong>BODMAS</strong> / <strong>PEMDAS</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href=""></a><span class="dv">3</span> <span class="sc">+</span> <span class="dv">5</span> <span class="sc">*</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 13</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href=""></a>(<span class="dv">3</span> <span class="sc">+</span> <span class="dv">5</span>) <span class="sc">*</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 16</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p><img data-src="operations.png"> <em>basic mathematical operations</em></p>
+<h3 id="some-things-to-keep-in-mind">Some Things to Keep in Mind</h3>
+<ul>
+<li>Data Types:
+<ul>
+<li>string/character, for example: “anything in quotation”, “123 too”</li>
+<li>numeric:
+<ul>
+<li>double, for example <code>2.1, 3.1</code></li>
+<li>integer, for example <code>1, 2, 3, 6</code></li>
+<li>logical: <code>TRUE, FALSE, NA</code></li>
+</ul></li>
+</ul></li>
+<li>Data Structures:
+<ul>
+<li>matrix</li>
+<li>vector</li>
+<li>data frame / tibble</li>
+</ul></li>
+<li>Variables</li>
+<li>Functions</li>
+<li>Packages</li>
+</ul>
+</section>
+<section id="import-and-clean" class="slide level2">
+<h2>Import and Clean</h2>
 </section>
 <section id="hypothesis-testing" class="slide level2">
 <h2>Hypothesis Testing</h2>
 </section></section>
 <section id="creating-stunning-visuals-with-r" class="title-slide slide level1 center">
 <h1>Creating Stunning Visuals with R</h1>
+
+</section>
+
+<section>
+<section id="the-team" class="title-slide slide level1 center">
+<h1>The Team</h1>
+
+</section>
+<section id="adesuyi-fisola" class="slide level2 smaller">
+<h2>Adesuyi Fisola</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>MSc. in Forest Sciences
+<ul>
+<li>University of Copenhagen | Denmark</li>
+<li>University of Gõttingen | Germany</li>
+</ul></li>
+<li>Bachelors (Forestry):
+<ul>
+<li>The Federal University of Technology, Akure | Nigeria</li>
+</ul></li>
+<li>Software Engineer - Zeroth, Copenhagen | Denmark</li>
+<li>Hobbies:
+<ul>
+<li>Reading</li>
+<li>Sport</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img src="scoals.png" width="420px" height="370px"></p>
+</div>
+</div>
+</section>
+<section id="oki-ayobami" class="slide level2 smaller">
+<h2>Oki Ayobami</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>B. Tech (Computer Engineering)
+<ul>
+<li>The Federal University of Technology, Akure | Nigeria</li>
+</ul></li>
+<li>Blockchain Engineer</li>
+<li><h2 id="hobbies">Hobbies:</h2>
+<ul>
+<li></li>
+</ul></li>
+</ul>
+</div><p><img data-src=".png"></p>
+</div>
+</section>
+<section id="aderele-meshach" class="slide level2 smaller">
+<h2>Aderele Meshach</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>PhD Fellow Aarhus University | Denmark</li>
+<li>MSc. in Environmental Sciences
+<ul>
+<li>American University of Beirut | Lebanon</li>
+</ul></li>
+<li>B. Tech (Forestry)
+<ul>
+<li>The Federal University of Technology, Akure | Nigeria</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src=".png"></p>
+</div>
+</div>
+</section></section>
+<section id="sign-off-message" class="title-slide slide level1 smaller center">
+<h1>Sign-Off Message</h1>
+<blockquote>
+<p>We rise to the top or remain at the bottom</p>
+<p>Because of conditions we can control</p>
+<p><strong>If we desire to control them</strong></p>
+<p>–<cite> <em>Napoleon Hill</em> </cite></p>
+</blockquote>
+</section>
+
+<section id="questions" class="title-slide slide level1 center">
+<h1>Questions</h1>
 <div class="quarto-auto-generated-content">
 <p><img src="logo-cropped.jpg" class="slide-logo"></p>
 <div class="footer footer-default">
@@ -685,6 +1008,44 @@ Olamide Adu
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

@@ -25,17 +25,20 @@ format:
 ## The Presenter {.smaller} 
 
 ::: columns
+
 ::: {.column width="50%"}
+
 -   Olamide Michael **ADU**
 -   MSc. in Forest Sciences
     -   Swedish University of Agricultural Sciences \| Sweden
     -   University of Copenhagen \| Denmark
--   Bachelors
+-   Bachelors (Forestry)
     -   The Federal University of Technology, Akure \| Nigeria
 -   Freelance Data Scientist
 -   Hobbies:
     -   Reading
-    -   Watching Anime
+    -   Running
+
 :::
 
 ::: {.column width="50%"}
@@ -79,14 +82,14 @@ format:
 ::: columns
 
 ::: {.column width="45%"}
-<img src="the-world.jpg" width="700px" height="540px"/>
+<img src="the-world.jpg" width="650px" height="440px"/>
 :::
 
 ::: {.column width="10%"}
 :::
 
 ::: {.column width="45%"}
-<img src="mountain-climb.png" width="820px" height="540px"/>
+<img src="mountain-climb.png" width="720px" height="440px"/>
 :::
 
 ::: {.column width="45%"}
@@ -104,24 +107,226 @@ format:
 
 ## How Can You Standout?
 
-- What transferable skills do I have?
+- Get transferable skills
 - Show what you can do
 
+### A Balance of Skill Sets
+::: columns
+
+::: {.column width="50%"}
+#### Soft Skills
+- communication
+- interpersonal
+- collaborative (team player)
+- Problem solving
+:::
+
+::: {.column width="50%"}
+#### Hard Skills
+- Tech Skills
+  -   R, Python, SQL, QGIS, etc.
+  -   Github
+- Domain Knowledge
+:::
+
+:::
 
 ## Why R?
 - It is free
+- Built by academics and not limited to academics
 - Popular in Academia
+- Can be used on all data without limitation
+- It makes reproducible research the norm
 
-## R and Microsoft Excel
+::: footer
+>**source:**
+>
+> Sage publications Ltd
+>
+> DataFlair
+:::
 
-## Installing R and RStudio
+## R vs Microsoft Excel {.smaller}
+::: columns
 
-# Introductory Data Analysis with R
+::: {.column width="50%"}
+### <img src = "R-logo.png" width="50px" height="50px"/>
+- Free
+- Steep Learning curve compared to Excel
+- Advance statistical capabilities
+- Allows for Easy collaboration (Good for team research projects)
+- Excellent for reproducibility
+- Wide range of data visualization tools
+:::
 
-## Import and Clean Data
+::: {.column width="50%"}
+### <img src = "ms-excel.png" width="80px" height="50px"/>
+- Costly except if Microsoft 365 is used (has more limited capabilities)
+- Easy to learn when compared to R
+- Limited statistical capabilities
+- Collaboration is possible and is challenging
+- Requires manual effort to achieve reproducibility
+- Limited visual capabilities
+:::
 
-# Basic Statistics with R
+:::
+
+
+## Installing R and RStudio {.smaller .scrollable}
+:::: {.panel-tabset}
+
+### Search Google
+- visit [google](www.google.com) or visit [posit.co](www.posit.co/download/rstudio-desktop)
+- search for **RStudio** if you go through [google](www.google.com)
+
+![](r-download.png)
+
+
+### Download  and Install R
+- Click on the **Download and install R** button, you'll get redirected to cran website
+- Pick a download according to your operating system
+![](choose-os.png)
+
+### Download and Install R Studio
+- Return to the previous page/tab [posit.co](www.posit.co/download/rstudio-desktop)
+- Pick a R Studio download according to your operating system and install
+![](rstudio-download.png)
+::::
+
+## The R Studio Environment
+![](https://intro2r.com/images/rstudio.png)
+
+# Data Analysis with R
+
+## Basic Mathematical Operations {.smaller .scrollable}
+::: {.panel-tabset}
+### Addition
+```{r}
+#| label: addition
+#| echo: true
+2 + 1
+3 + 5
+```
+
+### Subtraction
+```{r}
+#| echo: true
+#| label: subtraction
+12 - 1
+15 -2
+```
+### Multiplication
+```{r}
+#| echo: true
+#| label: multiplication
+15 * 3
+13 * 4
+```
+
+### Division
+```{r}
+#| echo: true
+#| label: division
+15/2
+5/2
+```
+
+### Order of Operation
+**BODMAS** / **PEMDAS**
+```{r}
+#| echo: true
+#| label: order-of-operation
+3 + 5 * 2
+(3 + 5) * 2
+```
+
+:::
+
+![](operations.png)
+*basic mathematical operations*
+
+### Some Things to Keep in Mind
+- Data Types:
+  - string/character, for example: "anything in quotation", "123 too"
+  - numeric:
+    - double, for example `2.1, 3.1`
+    - integer, for example `1, 2, 3, 6` 
+    - logical: `TRUE, FALSE, NA`
+- Data Structures:
+  - matrix
+  - vector
+  - data frame / tibble
+- Variables
+- Functions
+- Packages
+
+## Import and Clean
+
 
 ## Hypothesis Testing
 
 # Creating Stunning Visuals with R
+
+# The Team
+## Adesuyi Fisola {.smaller}
+::: columns
+::: {.column width="50%"}
+- MSc. in Forest Sciences
+  - University of Copenhagen | Denmark
+  - University of Gõttingen | Germany
+- Bachelors (Forestry):
+  - The Federal University of Technology, Akure | Nigeria
+- Software Engineer - Zeroth, Copenhagen | Denmark
+- Hobbies:
+  - Reading
+  - Sport
+:::
+
+::: {.column width="50%"}
+<img src="scoals.png" width="420px" height="370px"/>
+:::
+
+:::
+## Oki Ayobami {.smaller}
+::: columns
+
+::: {.column width="40%"}
+- B. Tech (Computer Engineering)
+  - The Federal University of Technology, Akure | Nigeria
+- Blockchain Engineer
+- Hobbies:
+  -
+  -
+  
+:::
+![]()
+:::
+
+## Aderele Meshach {.smaller}
+::: columns
+
+::: {.column width="50%"}
+- PhD Fellow Aarhus University | Denmark
+- MSc. in Environmental Sciences 
+  - American University of Beirut | Lebanon
+- B. Tech (Forestry)
+  - The Federal University of Technology, Akure | Nigeria
+:::
+
+:::{.column width="50%"}
+![]()
+:::
+
+:::
+
+# Sign-Off Message {.smaller}
+
+> We rise to the top or remain at the bottom
+>
+> Because of conditions we can control
+>
+> **If we desire to control them**
+>
+> --<cite> *Napoleon Hill* </cite>
+
+# Questions
