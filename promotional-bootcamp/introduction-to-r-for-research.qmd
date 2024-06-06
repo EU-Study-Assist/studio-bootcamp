@@ -131,6 +131,8 @@ format:
 
 :::
 
+# Introducing <img src = "R-logo.png" width="100px" height="100px"/> {background-color="black"}
+
 ## Why R?
 - It is free
 - Built by academics and not limited to academics
@@ -242,7 +244,7 @@ format:
 
 :::
 
-![](operations.png)
+![](operations.png) <br>
 *basic mathematical operations*
 
 ### Some Things to Keep in Mind
@@ -251,7 +253,7 @@ format:
   - numeric:
     - double, for example `2.1, 3.1`
     - integer, for example `1, 2, 3, 6` 
-    - logical: `TRUE, FALSE, NA`
+  - logical: `TRUE, FALSE, NA`
 - Data Structures:
   - matrix
   - vector
@@ -260,12 +262,48 @@ format:
 - Functions
 - Packages
 
-## Import and Clean
+## Data {.smaller}
+:::: {.columns}
+::: {.column width="60%"}
+### Sources
 
+![](ds.png)
+:::
 
-## Hypothesis Testing
+::: {.column width="40%"}
+### Extensions
 
-# Creating Stunning Visuals with R
+- MS excel workbook (xlsx)
+- Google sheets (gsheet)
+- text files:
+  - comma separated files (csv)
+  - delimited text files (txt)
+- Stata (dta)
+- SPSS (sav)
+
+:::
+::::
+
+## Understanding File Manager Structure
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<img src="file_manager.jpeg" width="500px" height="350px"/>
+:::
+
+::: {.column width="50%"}
+<img src = "file_sample.png" width="500px" height="350px"/>
+:::
+
+::::
+
+# Let's Get our Hands DIrty {background-image="dscience.jpeg" background-size="50%" background-color="black"}
+## Outline
+- Importing data
+- Summary statistics/descriptive statistics
+- Testing hypothesis
+- Visualizing our data.
 
 # The Team
 ## Adesuyi Fisola {.smaller}
@@ -295,8 +333,8 @@ format:
   - The Federal University of Technology, Akure | Nigeria
 - Blockchain Engineer
 - Hobbies:
-  -
-  -
+  - coding
+  - trading
   
 :::
 ![]()
