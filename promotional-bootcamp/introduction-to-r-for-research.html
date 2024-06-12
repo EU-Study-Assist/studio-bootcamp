@@ -8,7 +8,7 @@
 <link href="introduction-to-r-for-research_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="introduction-to-r-for-research_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="introduction-to-r-for-research_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.553">
+  <meta name="generator" content="quarto-1.4.555">
 
   <meta name="author" content="Olamide Adu">
   <meta name="dcterms.date" content="2024-05-31">
@@ -685,7 +685,12 @@ Olamide Adu
 <ul>
 <li>Data Types:
 <ul>
-<li>string/character, for example: “anything in quotation”, “123 too”</li>
+<li>string/character, for example: address, anything in quotation mark</li>
+<li>factors:
+<ul>
+<li>nominal(sex, gender, political party, nationality)</li>
+<li>ordinal(ratings, grades, income class, color)</li>
+</ul></li>
 <li>numeric:
 <ul>
 <li>double, for example <code>2.1, 3.1</code></li>
@@ -708,10 +713,10 @@ Olamide Adu
 <h2>Data</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
-<h3 id="sources">Sources</h3>
+<h4 id="sources">Sources</h4>
 <p><img data-src="ds.png"></p>
 </div><div class="column" style="width:40%;">
-<h3 id="extensions">Extensions</h3>
+<h4 id="extensions">Extensions</h4>
 <ul>
 <li>MS excel workbook (xlsx)</li>
 <li>Google sheets (gsheet)</li>
@@ -737,19 +742,40 @@ Olamide Adu
 </div>
 </section></section>
 <section>
-<section id="lets-get-our-hands-dirty" class="title-slide slide level1 center" data-background-image="dscience.jpeg" data-background-size="50%" data-background-color="black">
+<section id="lets-get-our-hands-dirty" class="title-slide slide level1 center" data-background-image="dscience.jpeg" data-background-size="70%" data-background-color="black">
 <h1>Let’s Get our Hands DIrty</h1>
 
 </section>
-<section id="outline" class="slide level2">
+<section id="outline" class="slide level2 scrollable">
 <h2>Outline</h2>
 <ul>
 <li>Importing data</li>
-<li>Summary statistics/descriptive statistics</li>
+<li>Descriptive statistics:
+<ul>
+<li>Measures of Central Tendency, spread, position</li>
+<li>Graphs and visualizations</li>
+</ul></li>
+<li>Statistical inference:
+<ul>
 <li>Testing hypothesis</li>
-<li>Visualizing our data.</li>
+<li>Estimation</li>
+</ul></li>
+<li>Packages</li>
+<li>Visualizing our data.
+<ul>
+<li>The ggplot2 package</li>
+</ul></li>
+<li>communicating our data
+<ul>
+<li>Introduction to quarto</li>
+</ul></li>
 </ul>
 </section></section>
+<section id="questions" class="title-slide slide level1 center">
+<h1>Questions</h1>
+
+</section>
+
 <section>
 <section id="the-team" class="title-slide slide level1 center">
 <h1>The Team</h1>
@@ -828,10 +854,6 @@ Olamide Adu
 <p><strong>If we desire to control them</strong></p>
 <p>–<cite> <em>Napoleon Hill</em> </cite></p>
 </blockquote>
-</section>
-
-<section id="questions" class="title-slide slide level1 center">
-<h1>Questions</h1>
 <div class="quarto-auto-generated-content">
 <p><img src="logo-cropped.jpg" class="slide-logo"></p>
 <div class="footer footer-default">
