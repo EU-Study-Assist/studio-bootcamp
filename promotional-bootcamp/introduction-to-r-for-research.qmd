@@ -6,142 +6,137 @@ format:
   revealjs:
     theme: dark
     footer: "www.eustudyassist.com"
-    logo: logo-cropped.jpg
+    logo: images/logo-cropped.jpg
+    chalkboard: true
+    menu:
+      width: half
 ---
 
 ::: columns
 ::: {.column width="45%"}
-![EU StudyAssist](logo.png)
+![EU StudyAssist](images/logo.png)
 :::
 
 ::: {.column width="15%"}
 :::
 
 ::: {.column width="40%"}
-![The Comprehensive R Archive Network](R-logo.png)
+![The Comprehensive R Archive Network](images/R-logo.png)
 :::
 :::
 
-## The Presenter {.smaller} 
+## The Presenter {.smaller}
 
 ::: columns
 
-::: {.column width="50%"}
-
+::: {.column width="60%"}
 -   Olamide Michael **ADU**
 -   MSc. in Forest Sciences
     -   Swedish University of Agricultural Sciences \| Sweden
     -   University of Copenhagen \| Denmark
--   Bachelors (Forestry)
-    -   The Federal University of Technology, Akure \| Nigeria
+-   Bachelors (Forestry)-  The Federal University of Technology, Akure \| Nigeria
 -   Freelance Data Scientist
--   Hobbies:
-    -   Reading
-    -   Running
-
 :::
 
-::: {.column width="50%"}
-![](instructor.jpg)
+::: {.column width="40%"}
+![](images/instructor.jpg)
 :::
+
 :::
 
 ## Introduction {.smaller}
 
 ::: columns
 ::: {.column width="60%"}
-![](graduation.png)
+![](images/graduation.png)
 :::
 
 ::: {.column width="40%"}
-![](career-path.png)
-*source: linkedin.com*
+![](images/career-path.png) *source: linkedin.com*
 
 > **Career Paths Are Never as Straightforward as We Believe.**
 >
 > --<cite>Ryan Roslansky - *Linkedin CEO*</cite>
 :::
-
 :::
 
-## Selection Criteria 
+## Selection Criteria
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ### Good Degree
-<img src="lady-grad.jpg" width="45%" height="35%/"/>
 
+<img src="images/lady-grad.jpg" width="45%" height="35%/"/>
 
 ### We Assume
-<img src="degree.jpeg" width="460px" height="430px"/>
 
-
+<img src="images/degree.jpeg" width="460px" height="430px"/>
 :::
 
 ## How Large is the Competition? {.scrollable}
+
 ::: columns
-
 ::: {.column width="45%"}
-<img src="the-world.jpg" width="650px" height="440px"/>
+<img src="images/the-world.jpg" width="650px" height="440px"/>
 :::
 
 ::: {.column width="10%"}
 :::
 
 ::: {.column width="45%"}
-<img src="mountain-climb.png" width="720px" height="440px"/>
+<img src="images/mountain-climb.png" width="720px" height="440px"/>
 :::
 
 ::: {.column width="45%"}
-<img src="ef-stats.png" width="100%" height="80%"/>
+<img src="images/ef-stats.png" width="100%" height="80%"/>
 :::
 
 ::: {.column width="10%"}
 :::
 
 ::: {.column width="45%"}
-<img src="ipcv.png" width="100%" height="80%/"/>
+<img src="images/ipcv.png" width="100%" height="80%/"/>
 :::
-
 :::
 
 ## How Can You Standout?
 
-- Get transferable skills
-- Show what you can do
+-   Get transferable skills
+-   Show what you can do
 
 ### A Balance of Skill Sets
-::: columns
 
+::: columns
 ::: {.column width="50%"}
 #### Soft Skills
-- communication
-- interpersonal
-- collaborative (team player)
-- Problem solving
+
+-   communication
+-   interpersonal
+-   collaborative (team player)
+-   Problem solving
 :::
 
 ::: {.column width="50%"}
 #### Hard Skills
-- Tech Skills
-  -   R, Python, SQL, QGIS, etc.
-  -   Github
-- Domain Knowledge
+
+-   Tech Skills
+    -   R, Python, SQL, QGIS, etc.
+    -   Github
+-   Domain Knowledge
+:::
 :::
 
-:::
-
-# Introducing <img src = "R-logo.png" width="100px" height="100px"/> {background-color="black"}
+# Introducing <img src="images/R-logo.png" width="100px" height="100px"/> {background-color="black"}
 
 ## Why R?
-- It is free
-- Built by academics and not limited to academics
-- Popular in Academia
-- Can be used on all data without limitation
-- It makes reproducible research the norm
+
+-   It is free
+-   Built by academics and not limited to academics
+-   Popular in Academia
+-   Can be used on all data without limitation
+-   It makes reproducible research the norm
 
 ::: footer
->**source:**
+> **source:**
 >
 > Sage publications Ltd
 >
@@ -149,60 +144,63 @@ format:
 :::
 
 ## R vs Microsoft Excel {.smaller}
+
 ::: columns
+::: {.column width="50%"}
+### <img src="images/R-logo.png" width="50px" height="50px"/>
+
+-   Free
+-   Steep Learning curve compared to Excel
+-   Advance statistical capabilities
+-   Allows for Easy collaboration (Good for team research projects)
+-   Excellent for reproducibility
+-   Wide range of data visualization tools
+:::
 
 ::: {.column width="50%"}
-### <img src = "R-logo.png" width="50px" height="50px"/>
-- Free
-- Steep Learning curve compared to Excel
-- Advance statistical capabilities
-- Allows for Easy collaboration (Good for team research projects)
-- Excellent for reproducibility
-- Wide range of data visualization tools
-:::
+### <img src="images/ms-excel.png" width="80px" height="50px"/>
 
-::: {.column width="50%"}
-### <img src = "ms-excel.png" width="80px" height="50px"/>
-- Costly except if Microsoft 365 is used (has more limited capabilities)
-- Easy to learn when compared to R
-- Limited statistical capabilities
-- Collaboration is possible and is challenging
-- Requires manual effort to achieve reproducibility
-- Limited visual capabilities
+-   Costly except if Microsoft 365 is used (has more limited capabilities)
+-   Easy to learn when compared to R
+-   Limited statistical capabilities
+-   Collaboration is possible and is challenging
+-   Requires manual effort to achieve reproducibility
+-   Limited visual capabilities
 :::
-
 :::
-
 
 ## Installing R and RStudio {.smaller .scrollable}
-:::: {.panel-tabset}
 
+::: panel-tabset
 ### Search Google
-- visit [google](www.google.com) or visit [posit.co](www.posit.co/download/rstudio-desktop)
-- search for **RStudio** if you go through [google](www.google.com)
 
-![](r-download.png)
+-   visit [google](www.google.com) or visit [posit.co](www.posit.co/download/rstudio-desktop)
+-   search for **RStudio** if you go through [google](www.google.com)
 
+![](images/r-download.png)
 
-### Download  and Install R
-- Click on the **Download and install R** button, you'll get redirected to cran website
-- Pick a download according to your operating system
-![](choose-os.png)
+### Download and Install R
+
+-   Click on the **Download and install R** button, you'll get redirected to cran website
+-   Pick a download according to your operating system ![](images/choose-os.png)
 
 ### Download and Install R Studio
-- Return to the previous page/tab [posit.co](www.posit.co/download/rstudio-desktop)
-- Pick a R Studio download according to your operating system and install
-![](rstudio-download.png)
-::::
+
+-   Return to the previous page/tab [posit.co](www.posit.co/download/rstudio-desktop)
+-   Pick a R Studio download according to your operating system and install ![](images/rstudio-download.png)
+:::
 
 ## The R Studio Environment
+
 ![](https://intro2r.com/images/rstudio.png)
 
 # Data Analysis with R
 
 ## Basic Mathematical Operations {.smaller .scrollable}
-::: {.panel-tabset}
+
+::: panel-tabset
 ### Addition
+
 ```{r}
 #| label: addition
 #| echo: true
@@ -211,13 +209,16 @@ format:
 ```
 
 ### Subtraction
+
 ```{r}
 #| echo: true
 #| label: subtraction
 12 - 1
 15 -2
 ```
+
 ### Multiplication
+
 ```{r}
 #| echo: true
 #| label: multiplication
@@ -226,6 +227,7 @@ format:
 ```
 
 ### Division
+
 ```{r}
 #| echo: true
 #| label: division
@@ -234,141 +236,138 @@ format:
 ```
 
 ### Order of Operation
+
 **BODMAS** / **PEMDAS**
+
 ```{r}
 #| echo: true
 #| label: order-of-operation
 3 + 5 * 2
 (3 + 5) * 2
 ```
-
 :::
 
-![](operations.png) <br>
-*basic mathematical operations*
+![](images/operations.png) <br> *basic mathematical operations*
 
 ### Some Things to Keep in Mind
-- Data Types:
-  - string/character, for example: address, anything in quotation mark
-  - factors: 
-    - nominal(sex, gender, political party, nationality)
-    - ordinal(ratings, grades, income class, color)
-  - numeric:
-    - double, for example `2.1, 3.1`
-    - integer, for example `1, 2, 3, 6` 
-  - logical: `TRUE, FALSE, NA`
-- Data Structures:
-  - matrix
-  - vector
-  - data frame / tibble
-- Variables
-- Functions
-- Packages
+
+-   Data Types:
+    -   string/character, for example: address, anything in quotation mark
+    -   factors:
+        -   nominal(sex, gender, political party, nationality)
+        -   ordinal(ratings, grades, income class, color)
+    -   numeric:
+        -   double, for example `2.1, 3.1`
+        -   integer, for example `1, 2, 3, 6`
+    -   logical: `TRUE, FALSE, NA`
+-   Data Structures:
+    -   matrix
+    -   vector
+    -   data frame / tibble
+-   Variables
+-   Functions
+-   Packages
 
 ## Data {.smaller}
-:::: {.columns}
+
+::: columns
 ::: {.column width="60%"}
 #### Sources
 
-![](ds.png)
+![](images/ds.png)
 :::
 
 ::: {.column width="40%"}
 #### Extensions
 
-- MS excel workbook (xlsx)
-- Google sheets (gsheet)
-- text files:
-  - comma separated files (csv)
-  - delimited text files (txt)
-- Stata (dta)
-- SPSS (sav)
-
+-   MS excel workbook (xlsx)
+-   Google sheets (gsheet)
+-   text files:
+    -   comma separated files (csv)
+    -   delimited text files (txt)
+-   Stata (dta)
+-   SPSS (sav)
 :::
-::::
+:::
 
 ## Understanding File Manager Structure
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
-<img src="file_manager.jpeg" width="500px" height="350px"/>
+<img src="images/file_manager.jpeg" width="500px" height="350px"/>
 :::
 
 ::: {.column width="50%"}
-<img src = "file_sample.png" width="500px" height="350px"/>
+<img src="images/file_sample.png" width="500px" height="350px"/>
+:::
 :::
 
-::::
+# Let's Get our Hands DIrty {background-image="images/dscience.jpeg" background-size="70%" background-color="black"}
 
-# Let's Get our Hands DIrty {background-image="dscience.jpeg" background-size="70%" background-color="black"}
 ## Outline {.scrollable}
-- Importing data
-- Descriptive statistics:
-  - Measures of Central Tendency, spread, position
-  - Graphs and visualizations
-- Packages
-- Visualizing our data.
-  - The ggplot2 package
-- Statistical inference:
-  - Estimation
-  - Testing hypothesis
-- communicating our data
-  - Introduction to quarto
+
+-   Importing data
+-   Descriptive statistics:
+    -   Measures of Central Tendency, spread, position
+    -   Graphs and visualizations
+-   Packages
+-   Visualizing our data.
+    -   The ggplot2 package
+-   Statistical inference:
+    -   Estimation
+    -   Testing hypothesis
+-   communicating our data
+    -   Introduction to quarto
 
 # Questions
 
 # The Team
 
 ## Adesuyi Fisola {.smaller}
-::: columns
-::: {.column width="50%"}
-- MSc. in Forest Sciences
-  - University of Copenhagen | Denmark
-  - University of Gõttingen | Germany
-- Bachelors (Forestry):
-  - The Federal University of Technology, Akure | Nigeria
-- Software Engineer - Zeroth, Copenhagen | Denmark
-- Hobbies:
-  - Reading
-  - Sport
-:::
 
-::: {.column width="50%"}
-<img src="scoals.png" width="420px" height="370px"/>
-:::
-
-:::
-## Oki Ayobami {.smaller}
 ::: columns
+::: {.column width="60%"}
+-   MSc. in Forest Sciences
+    -   University of Copenhagen \| Denmark
+    -   University of Gõttingen \| Germany
+-   Bachelors (Forestry):
+    -   The Federal University of Technology, Akure \| Nigeria
+-   Software Engineer **-** Zeroth, Copenhagen \| Denmark
+:::
 
 ::: {.column width="40%"}
-- B. Tech (Computer Engineering)
-  - The Federal University of Technology, Akure | Nigeria
-- Blockchain Engineer
-- Hobbies:
-  - coding
-  - trading
-  
+<img src="images/scoals.png" width="420px" height="370px"/>
 :::
+:::
+
+## Oki Ayobami {.smaller}
+
+::: columns
+::: {.column width="60%"}
+-   B. Tech (Computer Engineering)
+    -   The Federal University of Technology, Akure \| Nigeria
+-   Senior Blockchain Engineer - Lighthouse Storage | Singapore (2023-present)
+-   Blockchain Engineer **-** Kyzzen.io(Digital Eye) | United States (2021 - 2022)
+-   Full-stack Developer **-** Betastore | Senegal(2020 - 2023)
+:::
+
+::: {.column width="40%"}
 ![]()
+:::
 :::
 
 ## Aderele Meshach {.smaller}
+
 ::: columns
-
-::: {.column width="50%"}
-- PhD Fellow Aarhus University | Denmark
-- MSc. in Environmental Sciences 
-  - American University of Beirut | Lebanon
-- B. Tech (Forestry)
-  - The Federal University of Technology, Akure | Nigeria
+::: {.column width="60%"}
+-   Data Scientist & PhD Fellow Land-CRAFT - Aarhus University \| Denmark
+-   MSc. in Environmental Sciences -   American University of Beirut \| Lebanon
+-   B. Tech (Forestry) - The Federal University of Technology, Akure \| Nigeria
 :::
 
-:::{.column width="50%"}
-![]()
+::: {.column width="40%"}
+![](images/meshach.jpg)
 :::
-
 :::
 
 # Sign-Off Message {.smaller}
@@ -380,5 +379,3 @@ format:
 > **If we desire to control them**
 >
 > --<cite> *Napoleon Hill* </cite>
-
-
