@@ -352,7 +352,7 @@ format:
 :::
 
 ::: {.column width="40%"}
-![]()
+![](images/oki.jpeg)
 :::
 :::
 
