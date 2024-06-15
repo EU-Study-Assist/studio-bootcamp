@@ -109,9 +109,9 @@ format:
 ::: {.column width="50%"}
 #### Soft Skills
 
--   communication
--   interpersonal
--   collaborative (team player)
+-   Communication
+-   Good interpersonal relationship
+-   Collaboration (team player)
 -   Problem solving
 :::
 
@@ -154,7 +154,7 @@ format:
 -   Advance statistical capabilities
 -   Allows for Easy collaboration (Good for team research projects)
 -   Excellent for reproducibility
--   Wide range of data visualization tools
+-   Wide range of data visualization packages
 :::
 
 ::: {.column width="50%"}
