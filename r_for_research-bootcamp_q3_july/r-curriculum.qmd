@@ -1,0 +1,104 @@
+---
+title: "R for Research curriculum"
+author: "Olamide Adu"
+format: pdf
+---
+
+## Introduction to the course
+
+## Getting Started
+
+-   Installing R and RStudio
+-   The RStudio Interface
+-   The R Console
+-   Data Types
+    -   Math operations
+    -   Operator (:)
+    -   character/strings
+    -   Objects
+
+## Packages
+
+-   Installing packages
+-   The tidyverse metapackage
+
+## Functions
+
+-   Mathematical functions
+
+-   Conditional statement
+
+-   String operation functions
+
+## Importing Data/ Exporting Data
+
+-   Data structures:
+    -   Data frame/Tibble
+    -   Matrix
+    -   Vector
+    -   List
+-   Understanding Data Structures
+    -   glimpse/str/dim
+    -   head
+    -   Tail
+-   Manipulating data
+    -   Indexing
+    -   Subsetting/Filtering
+    -   Mutating
+
+## Exploratory Data Analysis
+
+-   Handling missing data
+-   Frequency table
+-   Correlation test
+-   Aggregating data / Summarizing data
+-   Data visualization with ggplot2:
+    -   Tidy data structure
+
+    -   Creating basic plots:
+      -   Histogram
+      -   Density
+      -  Tile plots
+
+    -   Customizing plots:
+      -   Themes
+      -   Colors
+      -   Labels
+      -   Scales
+
+## Inferential Statistics with R
+
+-   T-tests
+-   Chi-squared tests
+-   Proportion table
+-   Testing Hypothesis
+-   ANOVA
+-   Linear regression:
+    -   Simple linear regression
+    -   Multiple linear regression.
+
+## Git/Github
+
+-   Introduction to Git and GitHub
+-   Creating GitHub account
+-   Create repository on GitHub
+-   Making repository locally available
+-   Collaborating with colleagues
+-   Pull/Push commits
+
+## Reproducible Research with Quarto
+
+-   Introduction to Quarto
+-   Creating and customizing Quarto
+-   Simple markdown syntax
+-   Embedding R code and Results in Quarto
+-   Exporting Quarto Document
+    -   Pdf
+    -   Html
+    -   Docs.
+
+## Capstone Project:
+
+-   Import, clean, analyze and visualize data
+-   Collaborate with colleague
+-   Create a final report exported as PDF.
