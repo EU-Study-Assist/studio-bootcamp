@@ -11,6 +11,7 @@ format: pdf
 -   Installing R and RStudio
 -   The RStudio Interface
 -   The R Console
+-   The R Script
 -   Data Types
     -   Math operations
     -   Operator (:)
